@@ -1,7 +1,11 @@
 /* CSS Variables */
 
 :root {
+  /* Colors */
   --primary-text-color: black;
+  
+  /* Viewport Breaks */
+  --max-width-desktop: 1200px;
 }
 
 
@@ -32,7 +36,28 @@ body {
 
 /* Classes */
 
+/* Parent Grid Wrapper */
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: var(--max-width-desktop);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Default Tile Styling (NOT POSITIONING) */
+.tile-primary {
+  box-sizing: border-box;
+  display: block;
+  
+}
+
 /* Navigation */
-.nav-wrapper {
+.nav-tile {
   
 }
