@@ -64,20 +64,17 @@ body {
   grid-column: 1 / span 2;
 }
 
-.nav-container {
+.nav-container-flex {
   min-height: 60px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* Parent Nav Flex Container */
-.nav-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-brand {
