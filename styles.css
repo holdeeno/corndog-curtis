@@ -3,6 +3,7 @@
 :root {
   /* Colors */
   --primary-text-color: black;
+  --primary-background-color: #FD9928; /* Yellow */
   
   /* Viewport Breaks */
   --max-width-desktop: 1200px;
@@ -54,10 +55,15 @@ body {
 .tile-primary {
   box-sizing: border-box;
   display: block;
-  
+  border-radius: 3px;
+  background-color: var(--primary-background-color);
 }
 
-/* Navigation */
+/* Navigation (POSITIONING NAV TILE AT THE TOP) */
 .nav-tile {
-  
+  grid-column: 1 / span 2;
+}
+/* Give the nav tile a minimum height */
+.nav-container {
+  min-height: 60px;
 }
