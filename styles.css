@@ -72,9 +72,11 @@ body {
   margin-right: auto;
 }
 
+/* Parent Nav Flex Container */
 .nav-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
+
