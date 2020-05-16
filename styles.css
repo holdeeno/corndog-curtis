@@ -32,10 +32,32 @@ body {
   color: var(--primary-text-color);
 }
 
-
+img {
+  width: 100%;
+  border-radius: 5px;
+}
 
 
 /* Classes */
+
+
+/* --- POSITIONING (IN ORDER) --- */
+
+/* Navigation (POSITIONING NAV TILE AT THE TOP) */
+.nav-tile {
+  grid-column: 1 / span 2;
+}
+
+/* Hero (POSITIONING UNDER NAV) */
+.hero-tile {
+  grid-column: 1 / span 2;
+}
+
+
+
+
+
+/* --- STYLING --- */
 
 /* Parent Grid Wrapper */
 .grid-wrapper {
@@ -59,9 +81,10 @@ body {
   background-color: var(--primary-background-color);
 }
 
-/* Navigation (POSITIONING NAV TILE AT THE TOP) */
-.nav-tile {
-  grid-column: 1 / span 2;
+/* Images - Object Fit Cover */
+.object-fit-cover {
+  display: block;
+  object-fit: cover;
 }
 
 .nav-container-flex {
@@ -75,10 +98,4 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-/* Images - Object Fit Cover */
-.object-fit-cover {
-  display: block;
-  object-fit
 }
