@@ -58,7 +58,9 @@ img {
   margin-top: 3rem;
 }
 
-
+.epic-closeup-tile {
+  grid-column: 1;
+}
 
 
 /* --- STYLING --- */
