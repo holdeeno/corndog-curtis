@@ -34,7 +34,7 @@ body {
 
 img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 
@@ -53,6 +53,10 @@ img {
   grid-column: 1 / span 2;
 }
 
+.small-hero-tile {
+  grid-column: 1 / span 2;
+  margin-top: 3rem;
+}
 
 
 
@@ -79,6 +83,13 @@ img {
   display: block;
   border-radius: 3px;
   background-color: var(--primary-background-color);
+}
+
+.tile-white {
+  box-sizing: border-box;
+  display: block;
+  border-radius: 3px;
+  background-color: #fff;
 }
 
 /* Images - Object Fit Cover */
