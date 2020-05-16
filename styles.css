@@ -77,10 +77,8 @@ body {
   align-items: center;
 }
 
-.nav-brand {
-  
-}
-
-.nav-menu {
-  
+/* Images - Object Fit Cover */
+.object-fit-cover {
+  display: block;
+  object-fit
 }
