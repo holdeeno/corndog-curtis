@@ -84,37 +84,30 @@ a {
 /* Start 3 column grid */
 .bcard-grid-tile {
   grid-column: 1 / span 2;
-  grid-row: 1 / span 5;
 }
 
 .col-3-empty-tile {
   grid-column: 3;
-  grid-row: 1 / span 5;
 }
 
 .col-1-empty-tile {
   grid-column: 1;
-  grid-row: 6 / span 5;
 }
 
 .menu-grid-tile {
   grid-column: 2 / span 2;
-  grid-row: 6 / span 5;
 }
 
 .maroon-yellow-half-tile {
   grid-column: 1;
-  grid-row: 11 / span 4;
 }
 
 .red-white-yellow-third-tile {
   grid-column: 2;
-  grid-row: 11 / span 4;
 }
 
 .red-yellow-half-tile {
   grid-column: 3;
-  grid-row: 11 / span 4;
 }
 
 /* Start 2 column grid */
@@ -152,7 +145,6 @@ a {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 75px;
   max-width: var(--max-width-desktop);
   padding-top: 0;
   padding-left: 10px;
