@@ -71,6 +71,7 @@ img {
   grid-column: 1 / span 2;
 }
 
+/* Start 3 column grid */
 .bcard-grid-tile {
   grid-column: 1 / span 2;
   grid-row: 1 / span 5;
@@ -144,6 +145,7 @@ img {
   object-fit: cover;
 }
 
+/* Navigation styling */
 .nav-container-flex {
   min-height: 60px;
   padding-left: 30px;
@@ -155,4 +157,26 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Footer styling */
+.footer-container {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-copyright p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
