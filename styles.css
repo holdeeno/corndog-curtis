@@ -102,6 +102,10 @@ a {
   grid-row: 6 / span 5;
 }
 
+.red-hero-tile {
+  grid-column: 1 / span 2;
+}
+
 .footer-tile {
   grid-column: 1 / span 3;
 }
