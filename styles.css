@@ -102,6 +102,20 @@ a {
   grid-row: 6 / span 5;
 }
 
+.maroon-yellow-half-tile {
+  grid-column: 1;
+  grid-row: auto;
+}
+
+.red-white-yellow-third-tile {
+  grid-column: 2;
+  grid-row: auto;
+}
+
+.
+
+/* Start 2 column grid */
+
 .red-hero-tile {
   grid-column: 1 / span 2;
 }
