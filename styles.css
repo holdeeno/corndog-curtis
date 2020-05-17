@@ -38,6 +38,10 @@ img {
   border-radius: 3px;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* Classes */
 
@@ -89,7 +93,11 @@ img {
 
 .menu-grid-tile {
   grid-column: 2 / span 2;
-  grid-row: 6 / span 5;
+  grid-row: 6 / span 6;
+}
+
+.footer-tile {
+  grid-column: 1 / span 3;
 }
 
 
@@ -179,4 +187,27 @@ img {
   font-size: 12px;
   line-height: 1.5;
   margin-bottom: 0;
+}
+
+.footer-contact a {
+  color: #fe303b;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-social {
+  text-align: center;
+  margin: 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+  line-height: 26px;
 }
