@@ -77,6 +77,10 @@ a {
   grid-column: 1 / span 2;
 }
 
+.text-gif-tile {
+  grid-column: 1 / span 2;
+}
+
 /* Start 3 column grid */
 .bcard-grid-tile {
   grid-column: 1 / span 2;
