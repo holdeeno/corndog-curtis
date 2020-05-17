@@ -70,13 +70,19 @@ img {
   grid-column: 1 / span 2;
 }
 
-.bcard-grid {
+.bcard-grid-tile {
   grid-column: 1 / span 2;
 }
 
-.empty-tile-1 {
+.empty-tile-col-3 {
   grid-column: 3;
 }
+
+.empty-tile-col-1 {
+  grid-column: 1;
+}
+
+
 
 
 /* --- STYLING --- */
@@ -100,7 +106,7 @@ img {
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   max-width: var(--max-width-desktop);
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
