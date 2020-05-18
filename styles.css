@@ -251,3 +251,28 @@ a {
   line-height: 1.5;
   margin-bottom: 0;
 }
+
+/* Button Overlay Styling */
+.img-wrapper {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: '';
+  display: block;
+  height: 50%;
+}
+
+.btn {
+  
+}
+
