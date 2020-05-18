@@ -98,7 +98,7 @@ a {
   grid-column: 2 / span 2;
 }
 
-.maroon-yellow-half-tile {
+.cheese-bomb-third-tile {
   grid-column: 1;
 }
 
@@ -106,7 +106,23 @@ a {
   grid-column: 2;
 }
 
-.red-yellow-half-tile {
+.babybel-wrapped-third-tile {
+  grid-column: 3;
+}
+
+.menu-cta-tile {
+  grid-column: 1 / span 3;
+}
+
+.candybar-third-tile {
+  grid-column: 1;
+}
+
+.korean-third-tile {
+  grid-column: 2;
+}
+
+.epic-overhead-third-tile {
   grid-column: 3;
 }
 
