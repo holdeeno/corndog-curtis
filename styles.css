@@ -277,7 +277,7 @@ a {
 .img-overlay:before {
   content: '';
   display: block;
-  height: 10%;
+  height: 5%;
 }
 
 a > button {
@@ -304,7 +304,8 @@ a > button {
   background-color: #fff;
   border: 1px solid #fff;
   text-transform: uppercase;
-  color: var()
+  color: var(--primary-background-color);
+  font-weight: bold;
 }
 
 .btn-white:hover {
@@ -314,9 +315,10 @@ a > button {
 
 .btn-responsive {
   padding: 6px 20px;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.4;
   border-radius: 6px;
+  margin: 20px;
 }
 
 
@@ -335,7 +337,7 @@ a > button {
     font-size: 16px;
     line-height: 1.5;
     border-radius: 3px;
-    margin: 15px;
+    margin: 10px;
   }
   
 }
