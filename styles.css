@@ -126,15 +126,11 @@ a {
   grid-column: 3;
 }
 
-/* Start 2 column grid */
-
-.red-hero-tile {
-  grid-column: 1 / span 2;
-}
-
 .full-spread-tile {
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
 }
+
+/* Start 2 column grid */
 
 .footer-tile {
   grid-column: 1 / span 3;
