@@ -313,6 +313,12 @@ a > button {
   border-color: transparent;
 }
 
+.btn-secondary:hover {
+  background-color: red;
+  color: white;
+  border-color: transparent;
+}
+
 .btn-responsive {
   padding: 6px 20px;
   font-size: 28px;
