@@ -211,12 +211,21 @@ a {
 }
 
 .nav-brand {
-  margin-right: 20px;
+  box-sizing: border-box;
+  margin-right: 100px;
+  line-height: 0.9;
+}
+
+.nav-menu {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu ul {
   list-style: none;
-  font-weight: bold;}
+  font-weight: 600;
+  font-size: 22px;}
 
 /* Footer styling */
 .footer-container {
@@ -354,6 +363,7 @@ a > button {
     border-radius: 3px;
     margin: 10px;
   }
+
   
   /* Navigation styling */
   .nav-container-flex {
@@ -367,8 +377,6 @@ a > button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-  }
-  
+    align-items: flex-start;
+  }  
 }
