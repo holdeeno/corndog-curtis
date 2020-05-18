@@ -181,6 +181,14 @@ a {
   background-color: #fff;
 }
 
+.tile-outline {
+  box-sizing: border-box;
+  display: block;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 2px solid var(--primary-background-color);
+}
+
 /* Images - Object Fit Cover */
 .object-fit-cover {
   display: block;
@@ -276,7 +284,7 @@ a > button {
   cursor: pointer;
 }
 
-.btn {
+.btn-white {
   background-color: transparent;
   border: 1px solid #fff;
   text-transform: uppercase;
@@ -284,7 +292,15 @@ a > button {
   font-weight: bold;
 }
 
-.btn:hover {
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid var(--primary-background-color);
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+  font-weight: bold;
+}
+
+.btn-white:hover {
   background-color: red;
   border-color: transparent;
 }
