@@ -206,9 +206,17 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+.nav-brand {
+  margin-right: 20px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  font-weight: bold;}
 
 /* Footer styling */
 .footer-container {
