@@ -216,12 +216,20 @@ a {
   box-sizing: border-box;
   margin-right: 100px;
   line-height: 0.9;
+  text-align: left;
+}
+
+.logo {
+  height: 100px;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .nav-menu {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 .nav-menu ul {
