@@ -300,6 +300,13 @@ a > button {
   font-weight: bold;
 }
 
+.btn-secondary {
+  background-color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: var()
+}
+
 .btn-white:hover {
   background-color: red;
   border-color: transparent;
