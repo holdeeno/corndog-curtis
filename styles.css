@@ -182,8 +182,13 @@ a {
 .tile-white {
   box-sizing: border-box;
   display: block;
-  border-radius: 3px;
   background-color: #fff;
+}
+
+.tile-red {
+  box-sizing: border-box;
+  display: block;
+  background-color: #FC011B;
 }
 
 .tile-outline {
@@ -260,7 +265,7 @@ a {
 
 .footer-subscribe-container h3 {
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   line-height: 1.2;
   font-size: 2rem;
 }
