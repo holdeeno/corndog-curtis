@@ -252,8 +252,17 @@ a {
   font-weight: bold;
   padding-left: 4rem;
   padding-right: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   width: 100%;
   margin: 0 auto;
+}
+
+.footer-subscribe-container h3 {
+  color: white;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  font-size: 2rem;
 }
 
 
