@@ -267,9 +267,17 @@ a {
   color: white;
   margin-bottom: 1rem;
   line-height: 1.2;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
+.form-flex {
+  display: flex;
+}
+
+.form-input {
+  flex: 1 1 0%;
+  padding: 0 0.5rem 1rem;
+}
 
 
 /* Footer bottom */
