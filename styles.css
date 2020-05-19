@@ -134,6 +134,8 @@ a {
 
 /* Start 2 column grid */
 
+.footer-
+
 .footer-tile {
   grid-column: 1 / span 3;
 }
@@ -159,8 +161,6 @@ a {
   grid-template-columns: repeat(3, 1fr);
   max-width: var(--max-width-desktop);
   padding-top: 0;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -170,7 +170,6 @@ a {
 .tile-primary {
   box-sizing: border-box;
   display: block;
-  border-radius: 0px;
   background-color: var(--primary-background-color);
 }
 
