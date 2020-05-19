@@ -134,9 +134,15 @@ a {
 
 /* Start 2 column grid */
 
-.footer-
+.footer-subscribe-tile {
+  grid-column: 1 / span 3;
+}
 
-.footer-tile {
+.footer-menu-items-tile {
+  grid-column: 1 / span 3;
+}
+
+.footer-bottom-tile {
   grid-column: 1 / span 3;
 }
 
@@ -237,6 +243,22 @@ a {
   font-size: 22px;}
 
 /* Footer styling */
+
+/* Footer subscribe */
+.footer-subscribe-container {
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Footer bottom */
 .footer-container {
   padding-right: 30px;
   padding-left: 30px;
