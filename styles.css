@@ -149,8 +149,6 @@ a {
   max-width: var(--max-width-desktop);
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,7 +170,7 @@ a {
 .tile-primary {
   box-sizing: border-box;
   display: block;
-  border-radius: 3px;
+  border-radius: 0px;
   background-color: var(--primary-background-color);
 }
 
