@@ -166,14 +166,13 @@ a {
 }
 
 .contact-info {
-  color: #fff;
+  color: black;
   display: flex;
 }
 
 .contact-info .text-column {
   flex: 50%;
   padding: 60px;
-  color: 
 }
 
 .contact-info .image-column {
