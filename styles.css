@@ -254,7 +254,6 @@ a {
 
 .nav-menu a:hover {
   color: var(--primary-background-color);
-  font-weight: 700;
 }
 
 .dropdown {
@@ -471,4 +470,19 @@ a > button {
     font-size: 20px;
     font-weight: 600;
   }  
+  
+  .dropdown-content { /* Hidden by default */
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    white-space: nowrap;
+    font-size: 0.85em;
+    right: 0;
+  }
+  
+  
 }
