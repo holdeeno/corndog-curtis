@@ -431,6 +431,15 @@ a > button {
   margin: 20px;
 }
 
+.raise {
+  transition: all .3s ease-in-out;
+}
+
+.raise:hover {
+  transform: translateY(-0.1em);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
 
 
 /* MEDIA QUERIES */ 
