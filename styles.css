@@ -237,7 +237,7 @@ a {
 
 .nav-menu {
   box-sizing: border-box;
-  margin: 0;
+  margin-bottom: 0;
   padding: 0;
   text-align: left;
 }
@@ -245,7 +245,16 @@ a {
 .nav-menu ul {
   list-style: none;
   font-weight: 600;
-  font-size: 22px;}
+  font-size: 22px;
+}
+
+.nav-menu li {
+  margin-bottom: 5px;
+}
+
+.nav-menu a:hover {
+  color: var(--primary-background-color)
+}
 
 /* Footer styling */
 
@@ -426,5 +435,6 @@ a > button {
   
   .nav-menu > ul {
     font-size: 20px;
+    font-weight: 600;
   }  
 }
