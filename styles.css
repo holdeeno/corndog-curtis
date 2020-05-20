@@ -281,8 +281,12 @@ a {
   display: block;
 }
 
-.dropdown-content a:hover { /* Change the color of dropdown links on hive
+.dropdown-content a:hover { /* Change the color of dropdown links on hover */
   color: var(--primary-background-color);
+}
+
+.dropdown:hover .dropdown-content { /* Show the dropdown menu on hover */
+  display: block;
 }
 
 
