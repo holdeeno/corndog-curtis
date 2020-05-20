@@ -276,7 +276,7 @@ a {
 .dropdown-content:before {
   content: "";
   position: absolute;
-  top: 60px;
+  bottom: 10px;
   left: -30px;
   z-index: 1;
   border: solid 15px transparent;
