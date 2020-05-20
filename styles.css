@@ -17,6 +17,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 html {
@@ -83,14 +84,11 @@ a {
   grid-column: 1 / span 2;
 }
 
-.bcard-grid-tile {
-  grid-column: 1;
-}
 
-.col-2-empty-tile {
-  grid-column: 2;
-  border: 1px solid red;
-}
+/*** CONTACT SECTION ***/
+
+
+
 
 /* Start 3 column grid */
 
