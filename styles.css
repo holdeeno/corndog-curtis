@@ -89,6 +89,7 @@ a {
 
 .col-2-empty-tile {
   grid-column: 2;
+  border: 1px solid red;
 }
 
 /* Start 3 column grid */
