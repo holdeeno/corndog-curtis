@@ -83,22 +83,15 @@ a {
   grid-column: 1 / span 2;
 }
 
-/* Start 3 column grid */
 .bcard-grid-tile {
-  grid-column: 1 / span 2;
-}
-
-.col-3-empty-tile {
-  grid-column: 3;
-}
-
-.col-1-empty-tile {
   grid-column: 1;
 }
 
-.menu-grid-tile {
-  grid-column: 2 / span 2;
+.col-2-empty-tile {
+  grid-column: 2;
 }
+
+/* Start 3 column grid */
 
 .cheese-bomb-third-tile {
   grid-column: 1;
