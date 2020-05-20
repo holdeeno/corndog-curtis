@@ -168,6 +168,7 @@ a {
 .contact-info {
   color: black;
   display: flex;
+  align-items: center;
 }
 
 .contact-info .text-column {
@@ -178,47 +179,6 @@ a {
 .contact-info .image-column {
   flex: 50%;
 }
-
- /* Style inputs */
-  input[type=text], select {
-  border-radius: 0;
-  background: #fff;
-  padding: 0 0.85em;
-  font-weight: 400;
-  font-size: 0.9rem;
-  box-shadow: rgba(2, 3, 3, 0.1) 0 0 8px;
-  border: 1px solid #e6e6e6;
-  width: 100%;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-/* Style the submit button */
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
-  background-color: #45a049;
-} 
-
-::placeholder {
-  color: #ee3f4d;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
-
-
 
 
 
