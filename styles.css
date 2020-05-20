@@ -262,10 +262,10 @@ a {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content { /* Hidden by default */
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #f1f1f1;
   min-width: 160px;
   border-radius: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -274,14 +274,14 @@ a {
   font-size: 0.85em;
 }
 
-.dropdown-content a {
+.dropdown-content a { /* Links inside the dropdown */
   color: black;
   padding: 12px 14px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover { /* Change the color of dropdown links on hive
   color: var(--primary-background-color);
 }
 
