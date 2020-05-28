@@ -110,7 +110,7 @@ a {
 }
 
 /* Full Menu tile */
-.menu-cta-tile {
+.full-spread-tile {
   grid-column: 1 / span 3;
 }
 
@@ -129,9 +129,6 @@ a {
   grid-column: 3;
 }
 
-.full-spread-tile {
-  grid-column: 1 / span 3;
-}
 
 /* Start 2 column grid */
 
