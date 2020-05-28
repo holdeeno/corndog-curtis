@@ -62,53 +62,69 @@ a {
   grid-column: 1 / span 2;
 }
 
+/* Corndog Logo + tagline underneath */
 .small-hero-tile {
   grid-column: 1 / span 2;
   margin-top: 3rem;
 }
 
+/* Left 1/2 tile ("Check out the menu")*/
 .epic-closeup-tile {
   grid-column: 1;
 }
 
+/* Right 1/2 tile ("Find a truck near you")*/
 .epic-yellow-red-tile {
   grid-column: 2;
 }
 
+/* Business card horizontal tile */
 .bcard-tile {
   grid-column: 1 / span 2;
 }
 
+/* Text gif ("Sweet Smiles; Honey Dogs")*/
 .text-gif-tile {
   grid-column: 1 / span 2;
 }
 
+/*
+    CONTACT SECTION HERE 
+/*
+
 /* Start 3 column grid */
 
+/* Cheese bomb */
 .cheese-bomb-third-tile {
   grid-column: 1;
 }
 
+/* Mini on white + yellow + red */
 .red-white-yellow-third-tile {
   grid-column: 2;
 }
 
+/* Wrapped babybel grid */
 .babybel-wrapped-third-tile {
   grid-column: 3;
 }
 
+/* Full Menu tile */
 .menu-cta-tile {
   grid-column: 1 / span 3;
 }
 
+/* Snickers and Milky way */
 .candybar-third-tile {
   grid-column: 1;
 }
 
+/* Korean in cup */
 .korean-third-tile {
   grid-column: 2;
 }
 
+/* Overhead Epic */
 .epic-overhead-third-tile {
   grid-column: 3;
 }
