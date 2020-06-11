@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Corndog Company | Locations</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="newstyles.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- FullCalendar -->
+    <link href='./fullcalendar-4.4.2/packages/core/main.css' rel='stylesheet' />
+    <link href='./fullcalendar-4.4.2/packages/daygrid/main.css' rel='stylesheet' />
+    <link href='./fullcalendar-4.4.2/packages/list/main.css' rel='stylesheet' />
+
+    <script src='./fullcalendar-4.4.2/packages/core/main.js'></script>
+    <script src='./fullcalendar-4.4.2/packages/daygrid/main.js'></script>
+    <script src='./fullcalendar-4.4.2/packages/list/main.js'></script>
+
+    <script src='./fullcalendar-4.4.2/packages/google-calendar/main.js'></script>
+
+
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: [ 'dayGrid', 'list', 'googleCalendar', 'bootstrap' ], 
+          defaultView: 'listMonth',
+          themeSystem: 'bootstrap',
+          header: {
+            left: 'prev,next today',
+            center: '',
+            right: 'title'
+          },
+
+          googleCalendarApiKey: 'AIzaSyBhf-C05gxuSYSiYTnMQuyOhXuiPjcYMf4',
+
+          // The Corndog Company Gilbert Food Truck Schedule
+          events: {
+            googleCalendarId: 'thecorndogcompanygilbert@gmail.com'
+          },
+          eventColor: "var(--primary-background-color)"
+
+
+
+        });
+
+        calendar.render();
+      });
+
+    </script>
+
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn-clickable')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content-clickable");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
+
+  </head>
+
+  <body>
+    
+    <div class="grid-wrapper-2-col">
+
+      <div class="tile-white nav-tile">
+        <div class="nav-container-flex">
+          <a class="nav-brand" href="index.html">
+            <h2>
+              <span style="color: #601426;">The</span> <br> 
+              <span style="color: var(--primary-background-color);">Corndog</span> <br> 
+              <span style="color: #AA303E;">Company</span>
+            </h2>
+          </a>
+
+          <div class="nav-menu">
+            <ul>
+              <li><a href="locations.html">Menu</a></li>
+              <li><a href="locations.html">Contact</a></li>
+              <div class="dropdown">
+                <li><a href="locations.html">Locations</a></li>
+                <div class="dropdown-content">
+                  <a href="locations.html">St. George, Utah</a>
+                  <a href="locations.html">Cedar City, Utah</a>
+                  <a href="locations.html">Ogden, Utah</a>
+                  <a href="locations.html">Gilbert, Arizona</a>
+                  <a href="locations.html">Eastern Idaho</a>
+                  <a href="locations.html">Eastern Washington</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- FOOD MENU NAVIGATION -->
+
+      <div class="tile-white location-menu-nav-tile">
+        <div class="location-nav-container-flex">
+          <div class="location-name">
+            <div class="dropdown-clickable">
+              <button onclick="myFunction()" class="dropbtn-clickable">
+                Gilbert, Arizona 
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content-clickable">
+                <a href="locations.html">St. George, Utah</a>
+                <a href="locations.html">Cedar City, Utah</a>
+                <a href="locations.html">Ogden, Utah</a>
+                <a href="locations.html">Gilbert, Arizona</a>
+                <a href="locations.html">Eastern Idaho</a>
+                <a href="locations.html">Eastern Washington</a>
+              </div>
+          </div>
+        </div> 
+
+
+        <div class="location-menu-options">
+
+          <a href="#" class="location-menu-inline-buttons raise-no-shadow">
+            menu
+          </a>
+
+          <a href="#calendar-part" class="location-menu-inline-buttons raise-no-shadow">
+            calendar
+          </a>
+
+          <a href="#" class="location-menu-inline-buttons raise-no-shadow">
+            contact
+          </a>
+
+        </div>
+
+      </div>
+      </div>
+
+      <div class="menu-gif-tile">
+        <h1 class="menu-section-header">the menu.</h1>
+        <img class="object-fit-cover" src="./images/CornDog-Gif-2.gif">
+      </div>
+
+    </div> <!-- End 2-col-grid -->
+
+      <!-- Start 2-col-grid-menu -->
+
+      <div class="grid-wrapper-2-col-menu">
+
+        <div class="mini-menu-tile">
+          <img class="object-fit-cover" src="./images/mini-menu.jpg">
+        </div>
+
+        <div class="tile-white menu-mini-description-tile">
+            <h1 class="menu-item-section-header">the <span style="color: #DF1041;">mini.</span></h1>
+            <div class="menu-item-section-description-container">
+              <ul> 
+                <li><i class="fa fa-check" style="color: #DF1041;"></i> 
+                  1/8 pound all beef hotdog
+                </li>
+                <li><i class="fa fa-check" style="color: #DF1041;"></i>
+                  Hand-dipped in our freshly-made cornbread-style batter
+                </li>
+                <li><i class="fa fa-check" style="color: red;"></i>
+                  Drizzled with honey, (thoughtfully) dressed with ketchup and mustard
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="tile-white menu-epic-description-tile">
+            <h1 class="menu-item-section-header">the <span style="color: var(--primary-background-color);">epic.</span></h1>
+            <div class="menu-item-section-description-container">
+              <ul> 
+                <li><i class="fa fa-check" style="color: var(--primary-background-color);"></i> 
+                  1/4 pound all beef, <span style="font-weight: 800;">footlong</span> hotdog
+                </li>
+                <li><i class="fa fa-check" style="color: var(--primary-background-color);"></i>
+                  Hand-dipped in our freshly-made cornbread-style batter
+                </li>
+                <li><i class="fa fa-check" style="color: var(--primary-background-color);"></i>
+                  Drizzled with honey, (thoughtfully) dressed with ketchup and mustard
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="menu-epic-tile">
+          <img class="object-fit-cover" src="./images/epic-menu.jpg">
+        </div>
+
+        <div class="korean-menu-tile">
+          <img class="object-fit-cover" src="./images/korean-menu.jpg">
+        </div>
+
+        <div class="tile-white menu-korean-description-tile">
+            <h1 class="menu-item-section-header">make it <span style="color: #AA303E;">korean<span>.</h1>
+            <div class="menu-item-section-description-container">
+              <ul> 
+                <li><i class="fa fa-check" style="color: #AA303E;"></i> 
+                  Hand-dipped in our freshly-made cornbread-style batter
+                </li>
+                <li><i class="fa fa-plus" style="color: #AA303E;"></i>
+                  Rolled in asian-style panko breadcrumbs
+                </li>
+                <li><i class="fa fa-plus" style="color: #AA303E;"></i>
+                  Dusted with sugar
+                </li>
+                <li><i class="fa fa-plus" style="color: #AA303E;"></i>
+                  Drizzled with honey, dipped in a sweet chili sauce
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="tile-white menu-cheese-pop-description-tile">
+            <h1 class="menu-item-section-header">the <span style="color: #AA303E;"><span>cheese-pop.</h1>
+            <div class="menu-item-section-description-container">
+              <ul> 
+                <li><i class="fa fa-check" style="color: #AA303E;"></i> 
+                  Babybel cheese
+                </li>
+                <li><i class="fa fa-check" style="color: #AA303E;"></i>
+                  Hand-dipped in our freshly-made cornbread-style batter
+                </li>
+                <li><i class="fa fa-check" style="color: #AA303E;"></i>
+                  Drizzled with honey
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="menu-cheese-pop-tile">
+          <img class="object-fit-cover" src="./images/cheese-pop-menu.jpg">
+        </div>
+
+        <div class="honey-dog-gif-tile img-wrapper">
+          <img class="object-fit-cover" src="./images/Corndog-Gif-3.gif">
+          <div class="img-overlay">
+            <h1 class="menu-item-section-header" style="color: white;">home of the</h1>
+            <h1 class="menu-item-section-header-btn">honeydog</h1>
+          </div>
+        </div>
+
+        <div class="also-serving-tile">
+          <h1 class="menu-item-section-header" style="margin-top: 50px; margin-bottom: 20px;">
+            also serving: 
+          </h1>
+          <div class="large-menu-item-section-description-container">
+            <ul> 
+              <li><i class="fa fa-check" style="color: var(--primary-background-color);"></i> 
+                Kettle Chips
+              </li>
+              <li><i class="fa fa-check" style="color: var(--primary-background-color);"></i>
+                Assorted Drinks
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="grid-wrapper-2-col-menu grid-wrapper-1-col-menu">
+
+        <div class="calendar-container-tile" id="calendar-part">
+          <div class="calendar-title-flex">
+            <h1>Gilbert, Arizona Calendar</h1>
+            <a class="location-menu-inline-buttons raise-no-shadow" href="#">⬆︎ return to top</a>
+          </div>
+          <div id="calendar"></div>
+        </div>
+
+      </div>
+
+
+
+    <div class="grid-wrapper-footer">
+      
+      <div class="tile-white footer-bottom-tile">
+        <div class="footer-container">
+
+
+            <div class="footer-socials">
+              <ul class="list-inline">
+                <li>
+                  <a class="fa fa-facebook" href="#" target="_blank"></a>
+                </li>
+                <li>
+                  <a class="fa fa-instagram" href="#" target="_blank"></a>
+                </li>
+                <li>
+                  <a class="fa fa-google" href="#" target="_blank"></a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="footer-copyright">
+              <p>&#169; 2020-2021 The Corndog Company. All rights reserved.</p>
+              <p class="footer-contact"> 
+                <a href="mailto:hhalford@asu.edu">Contact Us</a>
+              </p>
+            </div>
+            
+            <div class="footer-devtag">
+              <p>
+                Written, designed, and built by 
+                <a href="https://holdenhalford.com" style="text-decoration: underline;">Holden Halford</a>.
+              </p>
+            </div>
+            
+        </div>
+      </div>
+      
+      
+    </div>
+
+  </body>
+
+</html>
