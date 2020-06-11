@@ -193,6 +193,18 @@ a > button {
 		grid-column: 2;
 	}
 
+	.cheese-bomb-tile {
+		grid-column: 1;
+	}
+
+	.menu-cheese-bomb-description-tile {
+		grid-column: 2;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.korean-menu-tile {
 		grid-column: 1;
 	}
@@ -214,7 +226,19 @@ a > button {
 	}
 
 	.menu-cheese-pop-tile {
+		grid-column: 2 !important;
+	}
+
+	.menu-desert-dog-tile {
+		grid-column: 1;
+	}
+
+	.menu-desert-dog-description-tile {
 		grid-column: 2;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.honey-dog-gif-tile {
@@ -952,7 +976,6 @@ a > button {
 	
 
 }
-
 
 /* Mobile Styles (max-width: 480px) */
 /* If device width is less than or equal to 480px, these styles apply */
