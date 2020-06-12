@@ -255,7 +255,6 @@ a > button {
 		grid-column: 1 / span 2;
 		margin: 40px;
 		overflow: hidden;
-		border-bottom: 1px solid #eee;
 	}
 
 
@@ -835,6 +834,110 @@ a > button {
 	  max-height: 500px;
 	}
 
+	/* || Contact Form Styling */
+	.section div.contact-form-container {
+		color: var(--primary-text-color); /* Black */
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		overflow: wrap;
+		word-wrap: break-word;
+		background-color: var(--secondary-background-color);
+	}
+
+		.section h1.contact-form-section-header {
+			font-size: 150px;
+			font-weight: 800;
+			letter-spacing: -0.02em;
+			text-align: left;
+			z-index: 10;
+			position: relative;
+			line-height: 0.5em;
+			color: var(--primary-text-color);
+		}
+
+		/* || --> Text Column */
+		.contact-form-container .text-column {
+			flex: 0 0 50%;
+			max-width: 50%;
+			position: relative;
+			padding-top: 20px;
+			padding-left: 50px;
+			padding-right: 50px;
+			padding-bottom: 20px;
+			font-weight: 800;
+			background-color: var(--secondary-background-color);
+		}
+
+			/* || --> */
+			.text-column a.contact-email-header {
+				text-decoration: none;
+				text-align: left;
+				font-size: 50px;
+				padding-bottom: 50px;
+				color: #fff;
+			}
+			/* || --> */
+			.text-column a.contact-email-header:hover {
+				text-decoration: underline;
+			}
+
+			/* || --> */
+			.grid-item-divider {
+				display: block;
+				position: relative;
+				height: 3px;
+				background-color: #fff;
+				width: 60px;
+				margin-top: 60px;
+				margin-bottom: 60px;
+				margin-left: 0;
+				margin-right: auto;			
+			}
+
+			/* || --> */
+			p.contact-text {
+				max-width: 80%;
+				margin-bottom: 20px;
+				color: #fff;
+				font-size: 24px;
+				font-weight: 600;
+			}
+
+			/* || --> */
+			.contact-socials {
+				margin-top: 50px;
+			}
+
+				/* || --> */
+				.contact-socials ul.list-inline {
+					display: flex;
+					justify-content: left;
+					padding-left: 0;
+					list-style: none;
+				}
+
+				.contact-socials ul.list-inline li {
+					display: inline-flex;
+					padding-right: 30px;
+					padding-left: 0;
+					line-height: 32px;
+					font-size: 32px;
+					color: #fff;
+				}
+
+					/* || --> */
+					.contact-socials ul.list-inline li a {
+						color: #fff;
+					}
+
+
+		/* || --> Form Column */
+		.contact-form-container .form-column {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
 
 
 
@@ -971,6 +1074,108 @@ a > button {
 		text-transform: uppercase;
 		mix-blend-mode: screen;
 	}
+
+	/* || Contact Form Styling */
+
+	.section-contact {
+		max-width: var(--max-width-desktop);
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.section h1.contact-form-section-header {
+		font-size: 110px;
+		font-weight: 800;
+		letter-spacing: -0.02em;
+		text-align: left;
+		z-index: 10;
+		position: relative;
+		line-height: 0.5em;
+		color: var(--primary-text-color);
+		margin-left: 10px;
+	}
+
+		/* || --> Text Column */
+		.contact-form-container .text-column {
+			flex: 0 0 50%;
+			max-width: 50%;
+			position: relative;
+			padding-top: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 20px;
+			font-weight: 800;
+			background-color: var(--secondary-background-color);
+		}
+
+			/* || --> */
+			.text-column a.contact-email-header {
+				text-decoration: none;
+				text-align: left;
+				font-size: 28px;
+				padding-bottom: 30px;
+				color: #fff;
+			}
+			/* || --> */
+			.text-column a.contact-email-header:hover {
+				text-decoration: underline;
+			}
+
+			/* || --> */
+			.grid-item-divider {
+				display: block;
+				position: relative;
+				height: 3px;
+				background-color: #fff;
+				width: 60px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				margin-left: 0;
+				margin-right: auto;			
+			}
+
+			/* || --> */
+			p.contact-text {
+				max-width: 80%;
+				margin-bottom: 20px;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 600;
+			}
+
+			/* || --> */
+			.contact-socials {
+				margin-top: 20px;
+			}
+
+				/* || --> */
+				.contact-socials ul.list-inline {
+					display: flex;
+					justify-content: left;
+					padding-left: 0;
+					list-style: none;
+				}
+
+				.contact-socials ul.list-inline li {
+					display: inline-flex;
+					padding-right: 30px;
+					padding-left: 0;
+					line-height: 26px;
+					font-size: 26px;
+					color: #fff;
+				}
+
+					/* || --> */
+					.contact-socials ul.list-inline li a {
+						color: #fff;
+					}
+
+
+		/* || --> Form Column */
+		.contact-form-container .form-column {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
 
 
 	
@@ -1314,6 +1519,112 @@ div.menu-item-section-description-container {
 div.fc-scroller {
 	height: 320px !important;
 }
+
+/* || Contact Form Styling */
+	.section div.contact-form-container {
+		color: var(--primary-text-color); /* Black */
+		display: flex;
+		align-items: center;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+		overflow: wrap;
+		word-wrap: break-word;
+		background-color: var(--secondary-background-color);
+	}
+
+		.section h1.contact-form-section-header {
+			font-size: 110px;
+			font-weight: 800;
+			letter-spacing: -0.02em;
+			text-align: center;
+			z-index: 10;
+			position: relative;
+			line-height: 0.5em;
+			color: var(--secondary-background-color);
+			margin-left: 0;
+		}
+
+		/* || --> Text Column */
+		.contact-form-container .text-column {
+			flex: 0 0 100%;
+			max-width: 100%;
+			position: relative;
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			font-weight: 800;
+			background-color: var(--secondary-background-color);
+		}
+
+			/* || --> */
+			.text-column a.contact-email-header {
+				text-decoration: none;
+				text-align: left;
+				font-size: 32px;
+				padding-bottom: 30px;
+				color: #fff;
+			}
+			/* || --> */
+			.text-column a.contact-email-header:hover {
+				text-decoration: underline;
+			}
+
+			/* || --> */
+			.grid-item-divider {
+				display: block;
+				position: relative;
+				height: 3px;
+				background-color: #fff;
+				width: 60px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				margin-left: 0;
+				margin-right: auto;			
+			}
+
+			/* || --> */
+			p.contact-text {
+				max-width: 80%;
+				margin-bottom: 20px;
+				color: #fff;
+				font-size: 24px;
+				font-weight: 600;
+			}
+
+			/* || --> */
+			.contact-socials {
+				margin-top: 50px;
+			}
+
+				/* || --> */
+				.contact-socials ul.list-inline {
+					display: flex;
+					justify-content: center;
+					padding-left: 0;
+					list-style: none;
+				}
+
+				.contact-socials ul.list-inline li {
+					display: inline-flex;
+					padding-right: 30px;
+					padding-left: 30px;
+					line-height: 32px;
+					font-size: 32px;
+					color: #fff;
+				}
+
+					/* || --> */
+					.contact-socials ul.list-inline li a {
+						color: #fff;
+					}
+
+
+		/* || --> Form Column */
+		.contact-form-container .form-column {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
 
 
 
