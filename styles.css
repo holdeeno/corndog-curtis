@@ -24,6 +24,9 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
   line-height: 1.4;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -31,6 +34,7 @@ body {
   padding: 0;
   color: var(--primary-text-color);
   overflow-x: hidden;
+  position: relative;
 }
 
 img {
@@ -81,9 +85,16 @@ a > button {
 
 	.section {
 		max-width: var(--max-width-desktop);
-		margin-top: 150px;
 		margin-right: auto;
 		margin-left: auto;
+		margin-top: 150px;
+	}
+
+	.sub-section {
+		max-width: var(--max-width-desktop);
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 20px;
 	}
 
 	.grid-wrapper-footer {
@@ -247,7 +258,6 @@ a > button {
 
 	.also-serving-tile {
 	  	grid-column: 1 / span 2;
-	  	border-bottom: 1px solid #eee;
 	}
 
 	/* || --> */
@@ -333,6 +343,20 @@ a > button {
 	    background-color: var(--primary-background-color);
 	    color: #fff;
 	    border-color: transparent;
+	}
+
+	.btn-white-hover-white {
+		background-color:transparent;
+		color: white;
+		border: 1px solid white;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.btn-white-hover-white:hover {
+		background-color: white;
+		color: var(--secondary-background-color);
+		border-color: transparent;
 	}
 
 	.raise {
@@ -939,6 +963,97 @@ a > button {
 			max-width: 50%;
 		}
 
+/* || Locations Sub Page Styling */
+/* || --> .section */
+	
+	/* || --> */
+	.sub-section div.one-col-container {
+		color: var(--primary-text-color); /* Black */
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		overflow: wrap;
+		word-wrap: break-word;
+		background-color: #fff;
+	}
+
+		/* || --> Back Link */
+		.one-col-container div.back-link-container {
+			margin-bottom: 20px;
+			display: inline-flex;
+			height: 1.5em;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+			border-radius: 6px;
+			font-size: 18px;
+			align-self: flex-start;
+		}
+
+			div.back-link-container a {
+				color: inherit;
+			}
+
+		/* || --> Text Column */
+		.one-col-container .text-column {
+			max-width: 50%;
+			padding-top: 10px;
+			padding-bottom: 40px;
+			padding-left: 10px;
+			padding-right: 20px;
+			font-weight: 800;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: var(--secondary-background-color);
+			border-radius: 5px;
+			color: #fff;
+		}
+
+			/* || --> */
+			.text-column h1.text-column-header {
+				text-align: center;
+				font-size: 30px;
+				margin-bottom: 20px;
+				color: #fff;
+				margin-top: 10px;
+			}
+
+			/* || --> */
+			.text-column .grid-item-divider {
+				display: block;
+				position: relative;
+				height: 3px;
+				background-color: #fff;
+				width: 15%;
+				margin-top: 40px;
+				margin-bottom: 40px;
+				margin-left: auto;
+				margin-right: auto;			
+			}
+
+			/* || -> */
+			.text-column .location-links{
+				text-align: center;
+				font-size: 30px;
+				color: #fff;
+			}
+
+            	/* || --> */
+            	.location-links p {
+            		margin-bottom: 30px;
+            		color: #fff;
+            	}
+
+            	.location-links p a {
+            		color: #fff;
+            	}
+
+				/* || -> */
+				.location-links a:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
 
 
 
@@ -1177,7 +1292,23 @@ a > button {
 			max-width: 50%;
 		}
 
+	/* || -> Sub Page Styling */
 
+		/* || --> Text Column */
+		.one-col-container .text-column {
+			max-width: 75%;
+			padding-top: 10px;
+			padding-bottom: 40px;
+			padding-left: 10px;
+			padding-right: 20px;
+			font-weight: 800;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: var(--primary-background-color);
+			border-radius: 5px;
+			color: #fff;
+		}
 	
 
 }
@@ -1458,7 +1589,6 @@ a > button {
 
 	.also-serving-tile {
 	  	grid-column: 1 / span 2;
-	  	border-bottom: 1px solid #eee;
 	}
 
 /* || Menu Item Styling */
@@ -1625,6 +1755,30 @@ div.fc-scroller {
 			flex: 0 0 100%;
 			max-width: 100%;
 		}
+
+	/* || -> Sub Page Styling */
+
+		/* || --> Text Column */
+		.one-col-container .text-column {
+			max-width: 90%;
+			padding-top: 10px;
+			padding-bottom: 40px;
+			padding-left: 10px;
+			padding-right: 20px;
+			font-weight: 800;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: var(--primary-background-color);
+			border-radius: 5px;
+			color: #fff;
+		}
+
+			/* || --> */
+			.text-column h1.text-column-header {
+				margin-left: 10px;
+				margin-right: 10px;
+			}
 
 
 
