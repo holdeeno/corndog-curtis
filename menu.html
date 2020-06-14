@@ -29,6 +29,17 @@
 
     <script src='./fullcalendar-4.4.2/packages/google-calendar/main.js'></script>
 
+    <script>
+
+      function openNav() {
+        document.getElementById("subNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("subNav").style.width = "0%";
+      }
+    </script>
+
   </head>
 
   <body>
@@ -47,11 +58,15 @@
 
           <div class="nav-menu">
             <ul>
-              <li><a href="menu-st-george.html" style="color: var(--primary-background-color);">Menu</a></li>
-              <li><a href="locations.html">Contact</a></li>
-              <div class="dropdown">
-                <li><a href="locations-st-george.html">Locations</a></li>
-                <div class="dropdown-content">
+
+              <li><a href="menu.html">Menu</a></li>
+
+              <li><a href="contact.html">Contact</a></li>
+
+              <!-- Hidden Sub Menu -->
+              <div id="subNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
                   <a href="locations-st-george.html">St. George, Utah</a>
                   <a href="locations-cedar-city.html">Cedar City, Utah</a>
                   <a href="locations-ogden.html">Ogden, Utah</a>
@@ -60,6 +75,7 @@
                   <a href="locations-eastern-washington.html">Eastern Washington</a>
                 </div>
               </div>
+              <li onclick="openNav()">Locations</li>
             </ul>
           </div>
           
