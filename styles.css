@@ -425,6 +425,51 @@ a > button {
 			.nav-container-flex .nav-menu ul {
 				list-style-type: none;
 			}
+				/* || --> */
+				.nav-container-flex .nav-menu ul .overlay {
+					height: 100%;
+					width: 0;
+					position: fixed;
+					z-index: 1;
+					top: 0;
+					left: 0;
+					background-color: rgb(0, 0, 0);
+					background-color: rgba(0, 0, 0, 0.8);
+					overflow-x: hidden;
+					transition: 0.5s;
+				}
+
+					/* || --> */
+					.nav-menu ul .overlay .overlay-content {
+						position: relative;
+						top: 25%;
+						width: 100%;
+						text-align: center;
+						margin-top: 30px;
+					}
+
+						/* || --> */
+						.overlay a {
+							padding: 8px;
+							text-decoration: none;
+							font-size: 36px;
+							color: #eee;
+							display: block;
+							transition: 0.3s;
+						}
+
+						/* || --> */
+						.overlay a:hover, .overlay a:focus {
+							color: var(--primary-background-color);
+						}
+
+					/* || --> */
+					.nav-menu ul .overlay .closebtn {
+						position: absolute;
+						top: 20px;
+						right: 45px;
+						font-size: 60px;
+					}
 
 				/* || -> */
 				.nav-container-flex .nav-menu ul li a {
@@ -433,9 +478,20 @@ a > button {
 					color: var(--primary-text-color); /* black */
 				}
 
+				.nav-container-flex .nav-menu ul li {
+					font-weight: 600;
+					font-size: 22px;
+					color: var(--primary-text-color);
+				}
+
 				/* || -> */
 				.nav-container-flex .nav-menu ul li a:hover {
 					color: var(--primary-background-color); /* orange */
+				}
+
+				.nav-container-flex .nav-menu ul li:hover {
+					color: var(--primary-background-color); /* orange */
+					cursor: pointer;
 				}
 
 				/* || -> Locations Dropdown */

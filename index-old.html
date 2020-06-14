@@ -19,17 +19,6 @@
     />
 
     <!-- Javascript -->
-    <script>
-
-      function openNav() {
-        document.getElementById("subNav").style.width = "100%";
-      }
-
-      function closeNav() {
-        document.getElementById("subNav").style.width = "0%";
-      }
-    </script>
-
   </head>
 
   <body>
@@ -48,15 +37,11 @@
 
           <div class="nav-menu">
             <ul>
-
               <li><a href="menu.html">Menu</a></li>
-
               <li><a href="contact.html">Contact</a></li>
-
-              <!-- Hidden Sub Menu -->
-              <div id="subNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
+              <div class="dropdown">
+                <li><a href="locations-sub-page.html">Locations</a></li>
+                <div class="dropdown-content">
                   <a href="locations-st-george.html">St. George, Utah</a>
                   <a href="locations-cedar-city.html">Cedar City, Utah</a>
                   <a href="locations-ogden.html">Ogden, Utah</a>
@@ -65,7 +50,6 @@
                   <a href="locations-eastern-washington.html">Eastern Washington</a>
                 </div>
               </div>
-              <li onclick="openNav()">Locations</li>
             </ul>
           </div>
           
