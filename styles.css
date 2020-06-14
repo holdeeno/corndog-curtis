@@ -494,47 +494,6 @@ a > button {
 					cursor: pointer;
 				}
 
-				/* || -> Locations Dropdown */
-				.nav-container-flex .nav-menu ul div.dropdown {
-					position: relative;
-					display: inline-block;
-				}
-
-					/* || -> */
-					.dropdown .dropdown-content { /* Hidden by default */
-					    display: none;
-					    position: absolute;
-					    background-color: #fff;
-					    min-width: 160px;
-					    border-radius: 3px;
-					    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-					    z-index: 500;
-					    white-space: nowrap;
-						font-size: 0.85em;
-					}
-
-						/* || -> */
-						.dropdown .dropdown-content a { /* Links inside the dropdown */
-						    color: black;
-							padding: 12px 14px;
-							text-decoration: none;
-							display: block;
-							font-size: 20px;
-							font-weight: 600;
-							line-height: 1.5;
-							margin: 0;
-						}
-
-						/* || -> */
-						.dropdown .dropdown-content a:hover { /* Change the color of dropdown links on hover */
-						    color: var(--primary-background-color);
-						}
-
-						/* || -> */
-						.dropdown:hover .dropdown-content { /* Show the dropdown menu on hover */
-							display: block;
-						}
-
 	/* || Small Hero Styling */
 	.small-hero-title {
 		text-align: center;
