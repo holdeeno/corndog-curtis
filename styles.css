@@ -532,10 +532,23 @@ a > button {
 			/* -> */
 			.img-overlay a button.btn-responsive {
 				padding: 6px 20px;
-				margin: 20px;
+				margin-top: 20px;
+				margin-left: auto;
+				margin-right: auto;
 				border-radius: 6px;
 				line-height: 1.4;
-				font-size: 28px;
+				font-size: 36px;
+			}
+
+			.img-overlay button.btn-responsive {
+				padding: 6px 20px;
+				margin-top: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 6px;
+				line-height: 1.4;
+				font-size: 36px;
+				cursor: pointer;
 			}
 
 	/* || 1/2 Tile Right */
@@ -1120,6 +1133,17 @@ a > button {
 	margin: 20px;
 }
 
+.img-overlay button.btn-responsive {
+	padding: 6px 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+	line-height: 1.4;
+	font-size: 24px;
+	cursor: pointer;
+}
+
 /* Section Parent Wrapper */
 .section {
 	max-width: var(--max-width-desktop);
@@ -1397,12 +1421,29 @@ a > button {
 
 /* || 1/2 Tile Left/Right Styling */
 
+/* || 1/2 Tile Left/Right */
 .img-overlay a button.btn-responsive {
-	padding: 4px 10px;
-	font-size: 18px;
-	line-height: 1.2;
+	padding: 6px 20px;
+	font-size: 15px;
+	line-height: 1.4;
 	border-radius: 6px;
-	margin: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 800;
+}
+
+.img-overlay button.btn-responsive {
+	padding: 6px 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	line-height: 1.4;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: 800;
 }
 
 /* Section Parent Wrapper */
