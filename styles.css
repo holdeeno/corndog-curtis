@@ -453,6 +453,7 @@ a > button {
 							padding: 8px;
 							text-decoration: none;
 							font-size: 36px;
+							font-weight: 800;
 							color: #eee;
 							display: block;
 							transition: 0.3s;
