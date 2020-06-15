@@ -1582,6 +1582,10 @@ a > button {
 	  	grid-column: 1 / span 2;
 	}
 
+	.truck-tile {
+		margin-top: 100px;
+	}
+
 /* || Menu Item Styling */
 .menu-item-section-header {
 	font-size: 35px;
@@ -1675,7 +1679,7 @@ div.fc-scroller {
 			flex: 0 0 100%;
 			max-width: 100%;
 			position: relative;
-			padding-top: 20px;
+			padding-top: 40px;
 			padding-left: 20px;
 			padding-right: 20px;
 			padding-bottom: 20px;
