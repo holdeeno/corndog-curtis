@@ -1627,6 +1627,11 @@ div.menu-item-section-description-container {
 
 /* || Calendar */
 
+.calendar-container-tile {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .calendar-title-flex  {
 	flex-wrap: wrap;
 	justify-content: space-around;
