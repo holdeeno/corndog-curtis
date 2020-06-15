@@ -246,12 +246,8 @@ a > button {
 		margin-bottom: 60px;
 	}
 
-	.menu-korean-description-tile-left {
-		grid-column: 1;
-		display: flex !important;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+	.korean-menu-tile-right {
+		grid-column: 2;
 		margin-bottom: 60px;
 	}
 
