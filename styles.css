@@ -808,7 +808,7 @@ a > button {
 			    padding-left: 0.5em;
 			    padding-right: 0.5em;
 			    border-radius: 4px;
-			    font-size: 14px;
+			    font-size: 16px;
 			    font-weight: 600;
 			    margin: 0 0 0 10px;
 			}
@@ -1475,9 +1475,9 @@ a > button {
 /* || -> .nav-container */
 .location-nav-container-flex {
 	padding-bottom: 10px;
-	margin: 10px auto 10px auto; /* top: 10px, right: auto, bottom: 10px, left: auto */
+	margin: 30px auto 10px auto; /* top: 10px, right: auto, bottom: 10px, left: auto */
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
@@ -1489,7 +1489,7 @@ a > button {
 		color: black;
 		border: none;
 		cursor: pointer;
-		font-size: 18px;
+		font-size: 28px;
 		font-weight: 600;
 	}
 
@@ -1499,8 +1499,9 @@ a > button {
 		padding: 12px 14px;
 		text-decoration: none;
 		display: block;
-		font-size: 16px;
+		font-size: 24px;
 		font-weight: 600;
+		text-align: center;
 	}
 
 	/* || -> .location-menu-buttons */
@@ -1509,6 +1510,11 @@ a > button {
 		margin-left: 10px;
 		margin-right: 20px;
 	}
+
+		/* || --> */
+		.location-nav-container-flex .location-menu-options {
+			margin-bottom: 20px;
+		}
 
 			/* || -> */
 			.location-menu-options .location-menu-inline-buttons {
@@ -1521,7 +1527,7 @@ a > button {
 			    padding-left: 0.5em;
 			    padding-right: 0.5em;
 			    border-radius: 4px;
-			    font-size: 12px;
+			    font-size: 16px;
 			    font-weight: 600;
 			    margin: 0 0 0 8px;
 			}
