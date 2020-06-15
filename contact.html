@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Corndog Company</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <!-- Javascript -->
+    <script>
+
+      function openNav() {
+        document.getElementById("subNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("subNav").style.width = "0%";
+      }
+    </script>
+
+  </head>
+
+  <body>
+    
+    <div class="grid-wrapper-2-col">
+
+      <div class="tile-white nav-tile">
+        <div class="nav-container-flex">
+          <a class="nav-brand" href="index.html">
+            <h2>
+              <span style="color: #601426;">The</span> <br> 
+              <span style="color: var(--primary-background-color);">Corndog</span> <br> 
+              <span style="color: #AA303E;">Company</span>
+            </h2>
+          </a>
+
+          <div class="nav-menu">
+            <ul>
+
+              <li><a href="menu.html">Menu</a></li>
+
+              <li><a href="contact.html">Contact</a></li>
+
+              <!-- Hidden Sub Menu -->
+              <div id="subNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="locations-st-george.html">St. George, Utah</a>
+                  <a href="locations-cedar-city.html">Cedar City, Utah</a>
+                  <a href="locations-ogden.html">Ogden, Utah</a>
+                  <a href="locations-gilbert.html">Gilbert, Arizona</a>
+                  <a href="locations-eastern-idaho.html">Eastern Idaho</a>
+                  <a href="locations-eastern-washington.html">Eastern Washington</a>
+                </div>
+              </div>
+              <li onclick="openNav()">Locations</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+    </div> <!-- End 2-col-grid -->
+
+    <!-- Contact Form Section -->
+    <div class="section">
+
+      <h1 class="contact-page-section-header">
+          Contact
+      </h1>
+
+      <div class="contact-page-form-container">
+
+         <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="email" name="lastname" placeholder="Your email..">
+
+            <label for="reason">Reason</label>
+            <select id="reason" name="reason">
+              <option value="comments">Comments and Recommendations</option>
+              <option value="catering">Catering</option>
+              <option value="fundraising">Fundraising</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="location">Location</label>
+            <select id="location" name="location">
+              <option value="st-george">St. George, Utah</option>
+              <option value="cedar-city">Cedar City, Utah</option>
+              <option value="ogden">Ogden, Utah</option>
+              <option value="gilbert">Gilbert, Arizona</option>
+              <option value="eastern-idaho">Eastern Idaho</option>
+              <option value="eastern-washington">Eastern Washington</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+
+      </div>
+
+    </div>
+
+    
+    <div class="grid-wrapper-footer">
+      
+      <div class="tile-white footer-bottom-tile">
+        <div class="footer-container">
+            
+            <div class="footer-copyright">
+              <p>&#169; 2020-2021 The Corndog Company. All rights reserved.</p>
+            </div>
+            
+            <div class="footer-devtag">
+              <p>
+                Written, designed, and built by 
+                <a href="https://holdenhalford.com" style="text-decoration: underline;">Holden Halford</a>.
+              </p>
+            </div>
+            
+        </div>
+      </div>
+      
+      
+    </div>
+    
+  </body>
+</html>
