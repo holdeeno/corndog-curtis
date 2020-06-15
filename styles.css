@@ -87,7 +87,7 @@ a > button {
 		max-width: var(--max-width-desktop);
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: 150px;
+		margin-top: 50px;
 	}
 
 	.sub-section {
@@ -263,8 +263,15 @@ a > button {
 	/* || --> */
 	.calendar-container-tile {
 		grid-column: 1 / span 2;
-		margin: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
 		overflow: hidden;
+	}
+
+	/* || --> */
+	.truck-tile {
+		grid-column: 1 / span 2;
+		margin-top: 200px;
 	}
 
 
@@ -878,7 +885,7 @@ a > button {
 	  	padding-left: 0.5em;
 	  	padding-right: 0.5em;
 	  	border-radius: 4px;
-	  	font-size: 14px;
+	  	font-size: 16px;
 	  	font-weight: 600;
 	  	margin: 0 0 0 10px;
 	}
@@ -908,6 +915,7 @@ a > button {
 			position: relative;
 			line-height: 0.5em;
 			color: var(--primary-text-color);
+			margin-left: 10px;
 		}
 
 		/* || --> Text Column */
@@ -927,9 +935,10 @@ a > button {
 			.text-column a.contact-email-header {
 				text-decoration: none;
 				text-align: left;
-				font-size: 50px;
-				padding-bottom: 50px;
+				font-size: 40px;
+				padding-bottom: 20px;
 				color: #fff;
+				letter-spacing: 1px;
 			}
 			/* || --> */
 			.text-column a.contact-email-header:hover {
@@ -991,98 +1000,6 @@ a > button {
 			flex: 0 0 50%;
 			max-width: 50%;
 		}
-
-/* || Locations Sub Page Styling */
-/* || --> .section */
-	
-	/* || --> */
-	.sub-section div.one-col-container {
-		color: var(--primary-text-color); /* Black */
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		flex-wrap: wrap;
-		overflow: wrap;
-		word-wrap: break-word;
-		background-color: #fff;
-	}
-
-		/* || --> Back Link */
-		.one-col-container div.back-link-container {
-			margin-bottom: 20px;
-			display: inline-flex;
-			height: 1.5em;
-			padding-left: 0.5em;
-			padding-right: 0.5em;
-			border-radius: 6px;
-			font-size: 18px;
-			align-self: flex-start;
-		}
-
-			div.back-link-container a {
-				color: inherit;
-			}
-
-		/* || --> Text Column */
-		.one-col-container .text-column {
-			max-width: 50%;
-			padding-top: 10px;
-			padding-bottom: 40px;
-			padding-left: 10px;
-			padding-right: 20px;
-			font-weight: 800;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			background-color: var(--secondary-background-color);
-			border-radius: 5px;
-			color: #fff;
-		}
-
-			/* || --> */
-			.text-column h1.text-column-header {
-				text-align: center;
-				font-size: 30px;
-				margin-bottom: 20px;
-				color: #fff;
-				margin-top: 10px;
-			}
-
-			/* || --> */
-			.text-column .grid-item-divider {
-				display: block;
-				position: relative;
-				height: 3px;
-				background-color: #fff;
-				width: 15%;
-				margin-top: 40px;
-				margin-bottom: 40px;
-				margin-left: auto;
-				margin-right: auto;			
-			}
-
-			/* || -> */
-			.text-column .location-links{
-				text-align: center;
-				font-size: 30px;
-				color: #fff;
-			}
-
-            	/* || --> */
-            	.location-links p {
-            		margin-bottom: 30px;
-            		color: #fff;
-            	}
-
-            	.location-links p a {
-            		color: #fff;
-            	}
-
-				/* || -> */
-				.location-links a:hover {
-					text-decoration: underline;
-					cursor: pointer;
-				}
 
 
 
