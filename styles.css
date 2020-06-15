@@ -176,11 +176,13 @@ a > button {
 	.menu-gif-tile {
 		grid-column: 1 / span 2;
 		margin-top: 60px;
+		margin-bottom: 60px;
 	}
 
 	/* || Mini */
 	.mini-menu-tile {
 		grid-column: 1;
+		margin-bottom: 60px;
 	}
 
 	/* || Mini Description */
@@ -190,6 +192,7 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.menu-epic-description-tile {
@@ -198,14 +201,17 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.menu-epic-tile {
 		grid-column: 2;
+		margin-bottom: 60px;
 	}
 
 	.cheese-bomb-tile {
 		grid-column: 1;
+		margin-bottom: 60px;
 	}
 
 	.menu-cheese-bomb-description-tile {
@@ -214,10 +220,12 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.korean-menu-tile {
 		grid-column: 1;
+		margin-bottom: 60px;
 	}
 
 	.menu-korean-description-tile {
@@ -226,6 +234,7 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.menu-cheese-pop-description-tile {
@@ -234,14 +243,17 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.menu-cheese-pop-tile {
 		grid-column: 2 !important;
+		margin-bottom: 60px;
 	}
 
 	.menu-desert-dog-tile {
 		grid-column: 1;
+		margin-bottom: 60px;
 	}
 
 	.menu-desert-dog-description-tile {
@@ -250,14 +262,21 @@ a > button {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin-bottom: 60px;
 	}
 
 	.honey-dog-gif-tile {
 	  	grid-column: 1 / span 2;
+	  	margin-bottom: 60px;
 	}
 
 	.also-serving-tile {
 	  	grid-column: 1 / span 2;
+	  	margin-bottom: 60px;
+	}
+
+	.full-spread-tile {
+		grid-column: 1 / span 2;
 	}
 
 	/* || --> */
@@ -1600,7 +1619,7 @@ div.menu-item-section-description-container {
 	padding-top: 10px;
 	max-width: 350px;
 	margin-left: auto;
-	margin-right: 10px;
+	margin-right: 15px;
 	text-align: left;
 }
 
@@ -1609,6 +1628,17 @@ div.menu-item-section-description-container {
 		list-style: none;
 		font-size: 15px;
 		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	/* || --> */
+	.large-menu-item-section-description-container {
+		  padding-top: 30px;
+		  padding-bottom: 30px;
+		  max-width: 450px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;
 	}
 
 /* || --> */
