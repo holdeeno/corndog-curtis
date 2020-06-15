@@ -237,6 +237,25 @@ a > button {
 		margin-bottom: 60px;
 	}
 
+	.menu-korean-description-tile {
+		grid-column: 2;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
+
+	.menu-korean-description-tile-left {
+		grid-column: 1;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 60px;
+	}
+
+
 	.menu-cheese-pop-description-tile {
 		grid-column: 1;
 		display: flex !important;
@@ -1162,6 +1181,7 @@ a > button {
   		letter-spacing: -0.02em;
   		line-height: 1;
   		text-align: center;
+  		margin-right: 30px;
 	}
 
 	/* || --> */
@@ -1572,6 +1592,10 @@ a > button {
 		grid-column: 1;
 	}
 
+	.korean-menu-tile-right {
+		grid-column: 2
+	}
+
 	.menu-korean-description-tile {
 		grid-column: 2;
 		display: flex !important;
@@ -1579,6 +1603,15 @@ a > button {
 		align-items: center;
 		justify-content: center;
 		padding-top: 0;
+	}
+
+	.menu-korean-description-tile-left {
+		grid-column: 1;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-left: 10px;
 	}
 
 	.menu-cheese-pop-description-tile {
