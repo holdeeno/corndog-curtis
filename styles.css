@@ -1062,36 +1062,74 @@ a > button {
 			padding-left: 80px;
 			padding-right: 80px;
 			width: 70%;
-			margin: 0 auto;
+			margin-top: 0;
+			margin-bottom: 150px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 1rem;
+			box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 		}
 
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		  /* Style labels */
+		  form label {
+		  	color: #fff;
+		  	font-size: 22px;
+		  	font-weight: 600;
+		  	align-self: flex-start;
+		  }
+
 		  /* Style inputs */
-		  input[type=text], select {
-		  width: 100%;
-		  padding: 12px 20px;
-		  margin: 8px 0;
-		  display: inline-block;
-		  border: 1px solid #ccc;
-		  border-radius: 4px;
-		  box-sizing: border-box;
+		  input[type=text], select, input[type=tel] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  border: transparent;
+			  background-color: #fff;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border-radius: 6px;
+			  box-sizing: border-box;
+			  outline: none;
+			  font-size: 14px;
+		}
+
+		input[type=text]:focus {
+		  border: 3px solid red;
 		}
 
 		/* Style the submit button */
 		input[type=submit] {
-		  width: 100%;
-		  background-color: #4CAF50;
-		  color: white;
-		  padding: 14px 20px;
-		  margin: 8px 0;
-		  border: none;
-		  border-radius: 4px;
-		  cursor: pointer;
+		  width: 50%;
+		  font-size: 26px;
+		  padding: 6px 20px;
+		  margin-top: 20px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  border-radius: 6px;
+		  line-height: 1.4;
 		}
 
-		/* Add a background color to the submit button on mouse-over */
-		input[type=submit]:hover {
-		  background-color: #45a049;
-		} 
+		textarea {
+			outline: none;
+			width: 100%;
+			padding: 12px 20px;
+			border: transparent;
+			background-color: #fff;
+			margin: 8px 0;
+			display: inline-block;
+			border-radius: 6px;
+			box-sizing: border-box;
+			resize: none;
+			overflow: auto;
+			font-family: inherit;
+			font-size: 14px;
+		}
+		
 
 
 
@@ -1360,6 +1398,18 @@ a > button {
 			flex: 0 0 50%;
 			max-width: 50%;
 		}
+
+/* || Contact.html */
+	/* || --> */
+	.contact-page-form-container {
+		background-color: var(--primary-background-color);
+		padding-top: 60px;
+		padding-bottom: 60px;
+		padding-left: 80px;
+		padding-right: 80px;
+		width: 85%;
+		margin: 0 auto;
+	}
 
 }
 
@@ -1900,6 +1950,63 @@ div.fc-scroller {
 				margin-left: 10px;
 				margin-right: 10px;
 			}
+
+/* || Contact.html Styling */
+	.contact-page-section-header {
+		font-size: 85px;
+		font-weight: 800;
+		letter-spacing: -0.02em;
+		text-align: center;
+		z-index: 10;
+		position: relative;
+		line-height: 0.5em;
+		color: var(--primary-text-color);
+	}
+
+		/* || --> */
+		.contact-page-form-container {
+			background-color: var(--primary-background-color);
+			padding-top: 60px;
+			padding-bottom: 60px;
+			padding-left: 40px;
+			padding-right: 40px;
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		  /* Style labels */
+		  form label {
+		  	color: #fff;
+		  	font-size: 22px;
+		  	font-weight: 600;
+		  }
+
+		  /* Style inputs */
+		  input[type=text], select, input[type=tel] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  border: transparent;
+		  background-color: #fff;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border-radius: 6px;
+		  box-sizing: border-box;
+		}
+
+		/* Style the submit button */
+		input[type=submit] {
+		  width: 50%;
+		  font-size: 26px;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		  margin-top: 20px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  border-radius: 6px;
+		  line-height: 1.4;
+		}
 
 
 
