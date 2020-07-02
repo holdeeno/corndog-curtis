@@ -172,6 +172,13 @@ a > button {
 		margin-right: 30px;
 	}
 
+	/* || Attention Message */
+	.attention-message-tile {
+		grid-column: 1;
+		margin-left: 10px;
+		margin-right: 30px;
+	}
+
 	/* || Hero */
 	.menu-gif-tile {
 		grid-column: 1 / span 2;
@@ -483,7 +490,7 @@ a > button {
 					/* || --> */
 					.nav-menu ul .overlay .overlay-content {
 						position: relative;
-						top: 25%;
+						top: 15%;
 						width: 100%;
 						text-align: center;
 						margin-top: 30px;
@@ -827,6 +834,15 @@ a > button {
 			    font-weight: 600;
 			    margin: 0 0 0 10px;
 			}
+
+	/* || Attention Message Container Styling */
+	.attention-message-container {
+		box-sizing: border-box;
+		border-radius: 10px; 
+		border: 2px solid var(--secondary-background-color);
+		padding: 12px 16px;
+		box-shadow: 5px 10px var(--secondary-background-color);
+	}
 
 	/* || Menu Hero Section Styling */
 	.menu-section-header {
@@ -1232,6 +1248,11 @@ a > button {
 			}
 
 /* --> || locations.html Styling <-- */
+
+	/* || Attention Message Layout Fix */
+	.attention-message-tile {
+		grid-column: 1 / span 2;
+	}
 
 	/* || Menu Hero Section Styling */
 	.menu-section-header {
@@ -1642,6 +1663,11 @@ a > button {
 			    font-weight: 600;
 			    margin: 0 0 0 8px;
 			}
+
+/* || Attention Message font size fix */
+.attention-message-container p {
+	font-size: 15px;
+}
 
 /* || Menu Hero Section Styling */
 	.menu-section-header {
